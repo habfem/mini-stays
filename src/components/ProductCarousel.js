@@ -1,34 +1,62 @@
 import React from 'react'
-//import { Link } from 'react-router-dom'
 import { Carousel, Image } from 'react-bootstrap'
+import firstSlide from '../images/PHOTO-2022-11-30-11-20-59.jpg'
+import secondSlide from '../images/PHOTO-2022-11-30-11-20-58 (1).jpg'
+import thirdSlide from '../images/PHOTO-2022-11-30-11-20-58 (2).jpg'
+import fourthSlide from '../images/PHOTO-2022-11-30-11-25-30.jpg'
+import fifthSlide from '../images/PHOTO-2022-11-30-11-20-58.jpg'
 
 const ProductCarousel = () => {
 
   return (
     <Carousel className='bg-dark'>
       <Carousel.Item>
-        <Image className="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgKOsanD6ElbvaA9zdkPGvQ2P-eELU1px8ngAFrF5L&s" alt="First slide" />
+        <Image className="d-block w-100" src={firstSlide} alt="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className='nah'>Work Area</h3>
+          <h4 className='nah'>Mini Stays.</h4>
+
+          <p>We are a national relocation company specialising in providing short term accommodation for business travellers, professionals and contractors from all sectors of industry. We also provide short term accommodation for leisure.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Image className="d-block w-100" src="https://images.pexels.com/photos/1482476/pexels-photo-1482476.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Second slide" />
+        <Image className="d-block w-100" src={secondSlide} alt="Second slide" />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='nah'>Dining Area</h3>
+          <h4 className='nah'>Mini Stays.</h4>
+
+          <p>We are a national relocation company specialising in providing short term accommodation for business travellers, professionals and contractors from all sectors of industry. We also provide short term accommodation for leisure.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
-        <Image className="d-block w-100" src="https://media.istockphoto.com/id/1196604729/photo/3d-illustration-fire-ring-floating-in-the-dark.jpg?s=612x612&w=0&k=20&c=_jKWL6XOyBtrz90MflrS--qFR-JueiPLyd9VJw1uWyY=" alt="Third slide" />
+        <Image className="d-block w-100" src={thirdSlide} alt="Third slide" />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3 className='nah'>Bed-room</h3>
+          <h4 className='nah'>Mini Stays.</h4>
+
+          <p>We are a national relocation company specialising in providing short term accommodation for business travellers, professionals and contractors from all sectors of industry. We also provide short term accommodation for leisure.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <Image className="d-block w-100" src={fourthSlide} alt="Fourth slide" />
+        <Carousel.Caption>
+          <h3 className='nah'>Kitchen</h3>
+          <h4 className='nah'>Mini Stays.</h4>
+
+          <p>We are a national relocation company specialising in providing short term accommodation for business travellers, professionals and contractors from all sectors of industry. We also provide short term accommodation for leisure.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+
+      <Carousel.Item>
+        <Image className="d-block w-100" src={fifthSlide} alt="Fifth slide" />
+        <Carousel.Caption>
+          <h3 className='nah'>Bathroom</h3>
+          <h4 className='nah'>Mini Stays.</h4>
+
+          <p>We are a national relocation company specialising in providing short term accommodation for business travellers, professionals and contractors from all sectors of industry. We also provide short term accommodation for leisure.</p>
         </Carousel.Caption>
       </Carousel.Item>
 

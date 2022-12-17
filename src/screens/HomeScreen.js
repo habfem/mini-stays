@@ -7,6 +7,7 @@ const HomeScreen = () => {
     <>
       <ProductCarousel />
       <hr></hr>
+      <br></br>
       <Offers />
     </>
   )
