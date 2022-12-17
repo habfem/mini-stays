@@ -1,9 +1,53 @@
 import React from 'react'
-import { Row, Col, Image, ListGroup, Card, Button, ListGroupItem, Form } from 'react-bootstrap';
+import { Row, Col, Image } from 'react-bootstrap';
+import miniStays from '../images/PHOTO-2022-11-30-11-12-30.jpg';
 
 const Offers = () => {
   return (
-    <div>Hi</div>
+    <>
+      <h2 className='text-center' >Why Choose US?</h2>
+      <h3 className='text-center'>We Provide full services every step of the way.</h3>
+      <br></br>
+      <Row>
+        <Col md={6}>
+          <Row>
+            <i className='fas fa-check-circle'>   Short-term Lets</i>
+          </Row>
+          <br></br>
+          <Row>
+            <i className='fa-solid fa-wifi'>     Fast Internet</i>
+          </Row>
+          <br></br>
+          <Row>
+            <i className='fa-solid fa-mug-saucer'>     Fully-Equipped Kitchen</i>
+          </Row>
+          <br></br>
+          <Row>
+            <i className='fas fa-tv'>     Flat Screen TV</i>
+          </Row>
+          <br></br>
+          <Row>
+            <i className='fas fa-couch'>     Confortable Furnitures</i>
+          </Row>
+          <br></br>
+          <Row>
+            <i className='fa-solid fa-bed'>     Cozy Beds</i>
+          </Row>
+          <br></br>
+          <Row>
+            <i className='fas fa-bath'>     Sleek Bathroom</i>
+          </Row>
+          <br></br>
+          <Row>
+            <i className='fa fa-diamond'>     Profesionally Cleaned</i>
+          </Row>
+
+        </Col>
+        <Col md={6}>
+          <Image src={miniStays} alt='mini-stays' fluid />
+        </Col>
+      </Row>
+    </>
   )
 }
 
