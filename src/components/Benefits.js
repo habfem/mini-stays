@@ -7,7 +7,7 @@ const Benefits = () => {
   return (
     <Carousel className='bg-dark' controls={false}>
       <Carousel.Item>
-        <Image className="d-block w-100" src={firstSlide} alt="First slide" />
+        <Image className="d-block w-100 mahn" src={firstSlide} alt="First slide" />
         <Carousel.Caption>
           <Row>
             <Col md={6}>

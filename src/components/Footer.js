@@ -9,7 +9,7 @@ const Footer = () => {
       <Container>
 
         <Row>
-          <h4 className='text-center py-3'>CONTACT FOR SUPPORT</h4>
+          <h4 className='text-center py-3'>CONTACT US</h4>
           <Col>
             <a href="mailto:akinwaleakindiya@yahoo.com" className="btn btn-outline-primary my-3"><i className="fas fa-at"></i> Send an mail</a>
           </Col>
