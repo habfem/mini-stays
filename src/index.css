@@ -1,8 +1,29 @@
 .nah {
-  color: blue;
+  color: rgb(41, 50, 46);
 }
 
 .mahn {
   filter: blur(8px);
   -webkit-filter: blur(8px);
+}
+
+.pad {
+  padding: 30px;
+}
+
+.logo {
+  max-width: 30%;
+  max-height: 25%;
+}
+
+@media(max-width: 767px) {
+  .needy {
+    font-size: 0;
+  }
+}
+
+@media(max-width: 900px) {
+  .needys {
+    font-size: 0;
+  }
 }

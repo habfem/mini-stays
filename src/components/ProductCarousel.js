@@ -12,7 +12,7 @@ const ProductCarousel = () => {
     <Carousel className='bg-dark'>
       <Carousel.Item>
         <Image className="d-block w-100" src={firstSlide} alt="First slide" />
-        <Carousel.Caption>
+        <Carousel.Caption className='needy'>
           <h3 className='nah'>Work Area</h3>
           <h4 className='nah'>Mini Stays.</h4>
 
@@ -22,7 +22,7 @@ const ProductCarousel = () => {
 
       <Carousel.Item>
         <Image className="d-block w-100" src={secondSlide} alt="Second slide" />
-        <Carousel.Caption>
+        <Carousel.Caption className='needy'>
           <h3 className='nah'>Dining Area</h3>
           <h4 className='nah'>Mini Stays.</h4>
 
@@ -32,7 +32,7 @@ const ProductCarousel = () => {
 
       <Carousel.Item>
         <Image className="d-block w-100" src={thirdSlide} alt="Third slide" />
-        <Carousel.Caption>
+        <Carousel.Caption className='needy'>
           <h3 className='nah'>Bed-room</h3>
           <h4 className='nah'>Mini Stays.</h4>
 
@@ -42,7 +42,7 @@ const ProductCarousel = () => {
 
       <Carousel.Item>
         <Image className="d-block w-100" src={fourthSlide} alt="Fourth slide" />
-        <Carousel.Caption>
+        <Carousel.Caption className='needy'>
           <h3 className='nah'>Kitchen</h3>
           <h4 className='nah'>Mini Stays.</h4>
 
@@ -52,7 +52,7 @@ const ProductCarousel = () => {
 
       <Carousel.Item>
         <Image className="d-block w-100" src={fifthSlide} alt="Fifth slide" />
-        <Carousel.Caption>
+        <Carousel.Caption className='needy'>
           <h3 className='nah'>Bathroom</h3>
           <h4 className='nah'>Mini Stays.</h4>
 

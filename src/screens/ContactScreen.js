@@ -18,6 +18,7 @@ const ContactScreen = () => {
   return (
     <>
       <Image className="d-block w-100 mahn" src={firstSlide} alt="Bed Room" />
+      <br></br>
       <FormContainer>
         <h1>Get in touch</h1>
         <Form onSubmit={submitHandler}>

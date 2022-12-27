@@ -1,7 +1,8 @@
 import React from 'react'
 //import { useDispatch, useSelector } from 'react-redux'
 import { LinkContainer } from 'react-router-bootstrap'
-import { Container, Navbar, Nav } from 'react-bootstrap'
+import { Container, Navbar, Nav, Image } from 'react-bootstrap'
+import logo from '../images/Screenshot 2022-12-25 083343-logo.png'
 
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
       <Navbar bg="primary" variant='dark' sticky="top" expand="lg" collapseOnSelect>
         <Container>
           <LinkContainer to='/'>
-            <Navbar.Brand>Mini Stays</Navbar.Brand>
+            <Navbar.Brand><Image src={logo} alt='mini-stays' className='logo' /></Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

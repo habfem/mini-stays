@@ -8,7 +8,7 @@ const Benefits = () => {
     <Carousel className='bg-dark' controls={false}>
       <Carousel.Item>
         <Image className="d-block w-100 mahn" src={firstSlide} alt="First slide" />
-        <Carousel.Caption>
+        <Carousel.Caption className='needys'>
           <Row>
             <Col md={6}>
               <h2>Agents Benefits</h2>
