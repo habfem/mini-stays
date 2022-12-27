@@ -9,7 +9,7 @@ const Offers = () => {
       <h3 className='text-center'>We Provide full services every step of the way.</h3>
       <br></br>
       <Row>
-        <Col md={6}>
+        <Col className='pad' md={6}>
           <Row>
             <i className='fas fa-check-circle'>   Short-term Lets</i>
           </Row>
@@ -23,7 +23,7 @@ const Offers = () => {
           </Row>
           <br></br>
           <Row>
-            <i className='fas fa-tv'>     Flat Screen TV</i>
+            <i className='fas fa-tv'>     Smart TV with streaming channels</i>
           </Row>
           <br></br>
           <Row>
@@ -43,7 +43,8 @@ const Offers = () => {
           </Row>
 
         </Col>
-        <Col md={6}>
+
+        <Col className='pad' md={6}>
           <Image src={miniStays} alt='mini-stays' fluid />
         </Col>
       </Row>
