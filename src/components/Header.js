@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header>
       <Navbar bg="primary" variant='dark' sticky="top" expand="lg" collapseOnSelect>
-        <Container>
+        <Container className='flex'>
           <LinkContainer to='/'>
             <Navbar.Brand><Image src={logo} alt='mini-stays' className='logo' /></Navbar.Brand>
           </LinkContainer>
